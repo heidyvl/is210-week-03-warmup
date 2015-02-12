@@ -13,5 +13,5 @@ FRACVAL = Fraction('1/10')
 print INTVAL
 print FLOATVAL
 print DECVAL
-print FRACVAL
+print FRACVAL;
 

@@ -6,4 +6,4 @@
 TEENAGE_MUTANT_NINJAS = ('Michaelangelo. Leonardo. Rafael. Donatello. Heroes '
                          'in a half shell.')
 
-print TEENAGE_MUTANT_NINJAS.split(' ',1);
+print TEENAGE_MUTANT_NINJAS.split(' ', 1)
