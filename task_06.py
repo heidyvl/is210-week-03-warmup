@@ -5,6 +5,7 @@
 FHANDLER = open('war_and_peace.txt', 'r')
 
 WORDS = FHANDLER.read()
-WORDS.split(); WORDCT = len(WORDS)
+WORDCT = WORDS.split(); WORDCT = len(WORDCT)
+
 print WORDCT
 FHANDLER.close()

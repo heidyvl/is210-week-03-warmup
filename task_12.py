@@ -4,9 +4,9 @@
 """Task 12"""
 from fractions import Fraction
 from decimal import *
-
+getcontext().prec = 1
 INTVAL = 1
-FLOATVAL = Decimal('0.1')
+FLOATVAL = round(Decimal(0.1),1)
 DECVAL = Decimal(1)/Decimal(10)
 FRACVAL = Fraction('1/10')
 
