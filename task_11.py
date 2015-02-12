@@ -2,5 +2,6 @@
 # -*- coding: utf-8 -*-
 """Task 11"""
 
-ESCAPE_STRING= ('\n'' + ")
-print (ESCAPE_STRING);
+ESCAPE_STRING= '\\n\'"'
+
+print (ESCAPE_STRING)
